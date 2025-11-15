@@ -4,19 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vision Task Web Viewer</title>
-    <style>body { font-family: sans-serif; }</style>
+    <style>
+        body { font-family: sans-serif; margin: 20px; text-align: center; }
+        h1 { font-size: 24px; font-weight: bold; }
+        .stats-box {
+            border: 1px solid #eee;
+            padding: 15px;
+            margin: 20px auto; /* Centers the box */
+            width: 250px; /* Gives the box a set width */
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            text-align: left; /* Aligns text inside the box */
+        }
+        .stat-label { font-weight: bold; }
+        .image-container {
+            width: 250px;
+            height: 250px;
+            border: 1px solid #ccc;
+            margin: 0 auto 10px; /* Centers and adds spacing */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .image-icon { font-size: 30px; }
+    </style>
 </head>
 <body>
 <h1>Processed Image Mock Viewer</h1>
-<img id="processedImage" src="sample_edge_frame.png" alt="Processed Image Sample" style="max-width: 80%; border: 1px solid #ccc;">
 
-<p style="margin-top: 20px;">
-    **Processing Stats (from TypeScript):**
-    <br>
-    FPS: <span id="fps">N/A</span>
-    <br>
-    Resolution: <span id="res">N/A</span>
-</p>
-<script src="main.js"></script>
+<div class="image-container">
+    <span class="image-icon">📷</span>
+    Processed Image Sample
+</div>
+
+<div class="stats-box">
+    <p class="stat-label" style="margin-top: 0;">Processing Stats (Mock):</p>
+    <p>FPS: <span class="stat-label">15 (Mock)</span></p>
+    <p>Resolution: <span class="stat-label">640x480 (Mock)</span></p>
+</div>
+
 </body>
 </html>
