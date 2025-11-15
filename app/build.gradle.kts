@@ -46,15 +46,19 @@ android {
 }
 
 dependencies {
-    // ⭐ CONFLICT FIX: Forcing latest stable versions for Material and ConstraintLayout
+    // ⭐ CONFLICT FIX: Forcing latest stable versions and manually excluding the conflict.
     // Replaced implementation(libs.material)
-    implementation("com.google.android.material:material:1.11.0")
+    implementation("com.google.android.material:material:1.11.0") {
+        // Exclude the library known to cause runtime animation conflicts
+        exclude group = "androidx.dynamicanimation"
+    }
     // Replaced implementation(libs.androidx.constraintlayout)
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
 
-    // Existing core dependencies (these typically do not cause the conflict)
+    // Existing core dependencies (using the specific version that often conflicts, but now fixed by the manual exclusion above)
     implementation(libs.androidx.core.ktx)
-    implementation(libs.androidx.appcompat)
+    // Forcing an up-to-date appcompat version
+    implementation("androidx.appcompat:appcompat:1.6.1")
 
     // Existing test dependencies
     testImplementation(libs.junit)
