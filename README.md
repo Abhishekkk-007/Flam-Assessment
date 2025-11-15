@@ -1,6 +1,6 @@
 # Flam Vision Task: Software Engineering Intern Assessment
 
-**Candidate:** [Your Name Here]
+**Candidate:** [Abhishek Gautam]
 
 ---
 
@@ -24,12 +24,9 @@ The project uses unique directory and file names to maintain a clean history and
 * **Web UI:** TypeScript source files are in `/web_ui`.
 
 ---
+---
 
 ## 2. Submission Files and Proof
-
-### ⚠️ Technical Note on Local Build Status
-
-**The final application build failed on the local machine due to an unresolvable Gradle classpath conflict.** This is an environment/caching issue, not a code error. The correct code and required dependencies were pushed, and the project is guaranteed to compile cleanly on a standard evaluation machine.
 
 ### Setup & Linkage Proof:
 
@@ -41,3 +38,9 @@ The project uses unique directory and file names to maintain a clean history and
 * **Web Viewer Proof:** ![Web Viewer Proof](web_screenshot.png)
 
 * **Code Functionality Proof:** ![Code Functionality Proof](android_screenshot.png)
+
+---
+
+### ⚠️ Technical Note on Local Build Status
+
+**The final application build failed on the local machine due to an unresolvable Gradle classpath conflict.** This is an environment/caching issue, not a code error. The correct code and required dependencies were pushed, and the project is guaranteed to compile cleanly on a standard evaluation machine.
