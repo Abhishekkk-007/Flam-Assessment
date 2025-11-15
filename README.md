@@ -1,6 +1,6 @@
 # Flam Vision Task: Software Engineering Intern Assessment
 
-**Candidate:** [Your Name Here]
+**Candidate:** [Abhishek Gautam]
 
 ---
 
