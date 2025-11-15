@@ -38,7 +38,6 @@ The project uses unique directory and file names to maintain a clean history and
 
 ### Visual Proof of Functionality
 
-* **Web Viewer Proof:** (Screenshot of the web page with mock FPS/Resolution stats)
-  ``
-* **Code Functionality Proof:** (Screenshot of the split-screen view showing Kotlin and C++ logic)
-  ``
+* **Web Viewer Proof:** ![Web Viewer Proof](web_screenshot.png)
+
+* **Code Functionality Proof:** ![Code Functionality Proof](android_screenshot.png)
