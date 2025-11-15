@@ -35,9 +35,9 @@ The project uses unique directory and file names to maintain a clean history and
 
 ### Visual Proof of Functionality
 
-* **Web Viewer Proof:** ![Web Viewer Proof](web_screenshot.png)
+* **Web Viewer Proof:** ![Web Viewer Proof](web_screenshot.png.png)
 
-* **Code Functionality Proof:** ![Code Functionality Proof](android_screenshot.png)
+* **Code Functionality Proof:** ![Code Functionality Proof](android_screenshot.png.png)
 
 ---
 
